@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media screen and (orientation:portrait)
+        {
+          #section_1
+          {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 4px double rgb(233, 106, 106);
+            margin: 10px;
+           padding: 5px;
+           background-color: rgb(11, 3, 3);
+          }
+         #div_1
+         {
+            border: 3px solid black;
+            width: 100%;
+            height: 200px;
+            margin: 10px;
+         }
+         #div_2
+         {
+            border: 3px solid black;
+            width: 100%;
+            height: 200px;
+            margin: 10px;
+         }
+         #div_3
+         {
+            border: 3px solid black;
+            width: 100%;
+            height: 200px;
+            margin: 10px;
+         }
+         #div_1_1
+         {
+           display: flex;
+           justify-content: center;
+           flex-direction: column;
+           align-items: center;
+         }
+         #div_1_1 div
+         {
+            border: 1px solid black;
+            height: 40px;
+            width: 100%;
+            height: 100px;
+
+         }
+         #div_2_1 div
+         {
+            border: 1px solid black;
+            height: 40px;
+            width: 100%;
+            height: 100px;
+
+         }
+         #div_3_1 div
+         {
+            border: 1px solid black;
+            height: 40px;
+            width: 100%;
+            height: 100px;
+
+         }
+         #div_first
+         {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+         }
+         #image_1_1
+         {
+          background-image: url("sofa_1.jpg");
+          background-size: cover;
+          margin: 5px;
+         }
+         #image_1_2
+         {
+            background-image: url("sofa_2.jpg");
+            background-size: cover;
+            margin: 5px;
+         }
+         #image_1_3
+         {
+            background-image: url("latest_sofa_1.html");
+            background-size: cover;
+            margin: 5px;
+         }
+         #image_1_4
+         {
+            background-image:url("latest_sofa_3.jpg");
+            background-size:contain;
+            margin: 5px;
+         }
+         #div_second
+         {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+         }
+         #image_2_1
+         {
+            background-image: url("u2.jpg");
+            background-size:cover;
+            margin: 5px;
+         }
+         #image_2_2
+         {
+           background-image: url("sofa_4.jpg");
+           background-size:cover;
+           margin: 5px;
+         }
+         #image_2_3
+         {
+            background-image: url("sofa_5.jpg");
+            background-size:cover;
+            margin: 5px;
+         }
+         #image_2_4
+         {
+            background-image: url("sofa_7.jpg");
+            background-size:cover;
+            margin: 5px;
+         }
+         #div_third
+         {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+         }
+         #image_3_1
+         {
+            background-image:url("sofa_8.jpg");
+            background-size:cover;
+            margin: 5px;
+         }
+         #image_3_2
+         {
+            background-image: url("sofa_9.jpg");
+            background-size:cover;
+            margin: 5px;
+         }
+         #image_3_3
+         {
+            background-image: url("sofa_10.jpg");
+            background-size:cover;
+            margin: 5px;
+         }
+         #image_3_4
+         {
+           background-image: url("sofa_11.jpg");
+           background-size:cover;
+           margin: 5px;
+         }
+         nav
+         {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 50px;
+            margin-bottom: 50px;
+            margin-top: 50px;
+            background-color: rgb(227, 105, 129);
+           
+         }
+
+         nav div 
+         {
+            border: 2px solid black;
+            padding: 20px;
+            height: 20px;
+            text-align: center;
+            background-color:rgb(234, 141, 160);
+            box-shadow: 0px 20px 20px rgb(55, 54, 54);
+            border-radius: 20px;
+
+         }
+         h3
+         {
+            text-align: center;
+            margin-top: -2px;
+           
+         }
+
+
+
+
+        }
+
+        @media screen and (orientation:landscape)
+        {
+            #section_1
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #div_1
+            {
+                border: 1px solid black;
+                height: 200px;
+                width: 50%;
+                margin: 5px;
+
+            }
+            #div_1_1
+            {
+                border: 1px solid black;
+                height: 200px;
+                width: 100%;
+            }
+            #div_1_1 div
+            {
+                border: 1px solid black;
+                width: 100%;
+                height: 100px;
+            }
+            #div_2
+            {
+                border: 1px solid black;
+                height: 200px;
+                width: 50%;
+                margin: 5px;
+            }
+            #div_2_1
+            {
+                border: 1px solid black;
+                height: 200px;
+                width: 100%;
+            }
+            #div_2_1 div
+            {
+                border: 1px solid black;
+                width: 100%;
+                height: 100px;
+            }
+            #div_3
+            {
+                border: 1px solid black;
+                height: 200px;
+                width: 50%;
+                margin: 5px;
+            }
+            #div_3_1
+            {
+                border: 1px solid black;
+                height: 200px;
+                width: 100%;
+            }
+            #div_3_1 div
+            {
+                border: 1px solid black;
+                width: 100%;
+                height: 100px;
+            }
+            #div_first
+         {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+         }
+         #image_1_1
+         {
+            background-image: url("sofa_1.jpg");
+          background-size: cover;
+         
+         }
+
+         #image_1_2
+         {
+            background-image: url("sofa_2.jpg");
+            background-size: cover;
+          
+         }
+         #image_1_3
+         {
+            background-image:url("latest_sofa_1.jpg");
+            background-size: cover;
+           
+         }
+         #image_1_4
+         {
+            background-image:url("latest_sofa_3.jpg");
+            background-size:cover;
+          
+         }
+         #div_second
+         {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+         }
+         #image_2_1
+         {
+            background-image: url("latest_sofa_2.jpg");
+            background-size:cover;
+           
+         }
+         #image_2_2
+         {
+           background-image: url("sofa_4.jpg");
+           background-size:cover;
+          
+         }
+         #image_2_3
+         {
+            background-image: url("sofa_5.jpg");
+            background-size:cover;
+          
+         }
+         #image_2_4
+         {
+            background-image: url("sofa_7.jpg");
+            background-size:cover;
+           
+         }
+         #div_third
+         {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+         }
+         #image_3_1
+         {
+            background-image:url("sofa_8.jpg");
+            background-size:cover;
+            margin: 5px;
+         }
+         #image_3_2
+         {
+            background-image: url("sofa_9.jpg");
+            background-size:cover;
+          
+         }
+         #image_3_3
+         {
+            background-image: url("sofa_10.jpg");
+            background-size:cover;
+          
+         }
+         #image_3_4
+         {
+           background-image: url("sofa_11.jpg");
+           background-size:cover;
+          
+         }
+         nav
+         {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 50px;
+            margin-bottom: 50px;
+            margin-top: 50px;
+            background-color: rgb(227, 105, 129);
+         }
+         nav div 
+         {
+            border: 2px solid black;
+            padding: 20px;
+            height: 20px;
+            text-align: center;
+            background-color:rgb(234, 141, 160);
+            box-shadow: 0px 20px 20px rgb(55, 54, 54);
+            border-radius: 20px;
+
+         }
+         h3
+         {
+            text-align: center;
+            margin-top: -2px;
+           
+         }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <h3>click on the image to zoom </h3>
+        </div>
+    </nav>
+    <section id="section_1">
+
+        <div id="div_1">
+<!--1st div os section_1-->
+            <div id="div_1_1">
+                <div id="div_first">
+                    <div id="image_1_1"><a href="sofa_1.html" target="_blank"  download="sofa"><img src="u1.jpg" width="100%" height="100px"></a></div>
+                    <div id="image_1_2"><a href="sofa_2.html" target="_blank"  download="sofa"><img src="sofa_2.jpg" width="100%" height="100px"></a></div>
+                </div>
+
+                <div id="div_first">
+                    <div id="image_1_3"><a href="latest_sofa_1.html" target="_blank"  download="sofa"><img src="latest_sofa_1.jpg" width="100%" height="100px"></a></div>
+                    <div id="image_1_4"><a href="latest_sofa_3.html" target="_blank"  download="sofa"><img src="latest_sofa_3.jpg" width="100%" height="100px"></a></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="div_2">
+<!--1st div os section_2-->
+        <div id="div_2_1">
+            <div id="div_second">
+                <div id="image_2_1"><a href="sofa_1.html" target="_blank"  download="sofa"><img src="u2.jpg" width="100%" height="100px"></a></div>
+                <div id="image_2_2"><a href="sofa_3.html" target="_blank"  download="sofa"><img src="u3.jpg" width="100%" height="100px"></a></div>
+            </div>
+
+            <div id="div_second">
+                <div id="image_2_3"><a href="sofa_4.html" target="_blank"  download="sofa"><img src="u4.jpg" width="100%" height="100px"></a></div>
+                <div id="image_2_4"><a href="sofa_5.html" target="_blank" download="sofa"><img src="u5.jpg" width="100%" height="100px"></a></div>
+            </div>
+        </div>
+        </div>
+
+        <div id="div_3">
+<!--1st div os section_3-->
+        <div id="div_3_1">
+            <div id="div_third">
+                <div id="image_3_1"><a href="sofa_5.html" target="_blank"  download="sofa"><img src="u5.jpg" width="100%" height="100px"></a></div>
+                <div id="image_3_2"><a href="sofa_7.html" target="_blank"  download="sofa"><img src="u7.jpg" width="100%" height="100px"></a></div>
+            </div>
+
+            <div id="div_third">
+                <div id="image_3_3"><a href="u8.jpg" target="_blank"  download="sofa"><img src="u8.jpg" width="100%" height="100px"></a></div>
+                <div id="image_3_4"><a href="sofa_9.html" target="_blank"  download="sofa"><img src="u9.jpg" width="100%" height="100px"></a></div>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+</html>
